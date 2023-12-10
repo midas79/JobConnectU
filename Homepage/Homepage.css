@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    --custom-primary-color: #427D9D;
+    --custom-hover-color: #9BBEC8;
+    --text-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #427D9D;
+}
+
+.navbar-brand:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #427D9D;
+
+}
+
+.nav-link:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item {
+    gap: 0.8rem;
+    padding: 8px;
+}
+
+.btn-custom {
+    background-color: var(--custom-primary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--custom-hover-color);
+    color: var(--text-color);
+}
+
+.navbar-custom {
+    background-color: var(--custom-primary-color);
+}
+
+.log-reg-btn {
+    outline: none;
+    gap: 0.5rem;
+}
+
+.reg-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.reg-btn :hover {
+    transition: 0.3s ease-in-out;
+}
+
+.log-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.log-btn :hover {
+    transition: 0.3s ease-in-out;
+}
+
+
+.navbar-toggler {
+    background-color: var(--custom-primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-toggler-collapse {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: var(--custom-hover-color);
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: var(--custom-hover-color);
+    transition: background-color 0.3s ease;
+}
+
+.container.text-center {
+    margin-top: 50px;
+}
+
+.search-bar.d-flex {
+    margin-top: 50px;
+    width: 69.5%;
+}
+
+.row {
+    padding: 50px;
+}
+
+.jobs-list-container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.jobs-list-container .job {
+    box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.2);
+    padding: 20px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 400ms ease;
+    height: 100%; /* Tinggi 100% untuk menyamakan tinggi setiap elemen job */
+    
+}
+
+.jobs-list-container .job:hover {
+    transform: scale(1.03);
+}
+
+.jobs-list-container .open-positions {
+    position: absolute;
+    top: 15px;
+    right: 23px;
+    font-size: 13.5px;
+    color: #e63946;
+}
+
+.jobs-list-container .job img {
+    margin-bottom: 15px ;
+    width: 30px; /* Ubah lebar ikon sesuai keinginan */
+    top: 10px;
+    left: 10px;
+}
+
+.jobs-list-container .jobtitle {
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 0;
+    color: #023047;
+    margin-bottom: 10px;
+}
+
+.jobs-list-container .details {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 10px;
+}
