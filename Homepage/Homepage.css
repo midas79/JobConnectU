@@ -129,8 +129,9 @@
     display: flex;
     flex-direction: column;
     transition: all 400ms ease;
-    height: 100%; /* Tinggi 100% untuk menyamakan tinggi setiap elemen job */
-    
+    height: 100%;
+    /* Tinggi 100% untuk menyamakan tinggi setiap elemen job */
+
 }
 
 .jobs-list-container .job:hover {
@@ -146,8 +147,9 @@
 }
 
 .jobs-list-container .job img {
-    margin-bottom: 15px ;
-    width: 30px; /* Ubah lebar ikon sesuai keinginan */
+    margin-bottom: 15px;
+    width: 30px;
+    /* Ubah lebar ikon sesuai keinginan */
     top: 10px;
     left: 10px;
 }
