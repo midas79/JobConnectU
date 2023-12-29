@@ -49,10 +49,11 @@ body, html {
 .login-heading {
     font-weight: 500;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .btn-login {
+    margin-top: 10px;
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     padding: 0.75rem 1rem;
@@ -63,10 +64,6 @@ body, html {
 .btn-login:hover{
     background-color: rgb(238, 238, 238);
     color: #5e5e5e;
-}
-
-.forgot-password {
-    margin-left: auto;
 }
 
 .text-center img {
@@ -91,6 +88,6 @@ body, html {
     padding: 0px 8px
 }
 
-.not-have-account{
+.already-have-account{
     text-align: center;
 }
