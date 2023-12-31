@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    --custom-primary-color: #427D9D;
+    --custom-hover-color: #9BBEC8;
+    --text-color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #427D9D;
+}
+
+.navbar-brand:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #427D9D;
+}
+
+.nav-link:hover {
+    color: #9BBEC8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item {
+    gap: 0.8rem;
+    padding: 8px;
+}
+
+.btn-custom {
+    background-color: var(--custom-primary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--custom-hover-color);
+    color: var(--text-color);
+}
+
+.navbar-custom {
+    background-color: var(--custom-primary-color);
+}
+
+.log-reg-btn {
+    outline: none;
+    gap: 0.5rem;
+}
+
+.reg-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.reg-btn :hover {
+    transition: 0.3s ease-in-out;
+}
+
+.log-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.log-btn :hover {
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    background-color: var(--custom-primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-toggler-collapse {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: var(--custom-hover-color);
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: var(--custom-hover-color);
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Warna latar belakang halaman */
+}
+
+header {
+    background-color: #5546; /* Warna latar belakang header */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.forum-section {
+    width: calc(33% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+}
+
+#forum-form-1,
+#forum-form-2,
+#forum-form-3,
+#forum-form-4,
+#forum-form-5,
+#forum-form-6,
+#forum-form-7,
+#forum-form-8,
+#forum-form-9 {
+    margin-bottom: 20px;
+}
+
+#messages-1,
+#messages-2,
+#messages-3,
+#messages-4,
+#messages-5,
+#messages-6,
+#messages-7,
+#messages-8,
+#messages-9 {
+    list-style: none;
+    padding: 0;
+}
+
+.message {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
