@@ -138,7 +138,6 @@ p {
     background-color: var(--custom-primary-color);
     color: var(--text-color);
     transition: background-color 0.3s ease;
-    margin-bottom: 50px;
 }
 
 .btn-custom:hover {
