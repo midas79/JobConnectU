@@ -118,11 +118,16 @@ html {
 
 .card-title{
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .card-title:hover{
     color: #b1b1b1;
     transition: 0.15s ease-in-out;
+}
+
+.card-text{
+    height: 60px;
 }
 
 .video-profile {
